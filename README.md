@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Data Visualizer Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+First Stage - simple data visualizer application built with React. 
 
-## Available Scripts
+## Starting Application
 
 In the project directory, you can run:
 
