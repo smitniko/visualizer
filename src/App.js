@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import './data/data.js';
-import {chartData} from './data/data.js';
+import { chartData } from './data/data.js';
 import FusionCharts from 'fusioncharts';
 import ReactFC from 'react-fusioncharts';
 import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
@@ -27,7 +27,7 @@ const chartConfigs = {
       theme: "fusion"                 //Set the theme for your chart
     },
     // Chart Data - from step 2
-    data: {chartData}
+    data:  chartData 
   }
 };
 
@@ -51,6 +51,7 @@ function App() {
         </div>
         <p>
           Lets Get That Data! 
+          <Chart/>
         </p>
       </header>
       
